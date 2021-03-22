@@ -5,51 +5,51 @@ using UnityEngine;
 [System.Serializable]
 public class App : MonoBehaviour
 {
-    private int app_id;
-    private GameSession gs;
-    private Patient patient;
-    private float timeSpentOnPatient;
-    private float timeInfoOnPatient;
-    private int timesClickedPatientInfo;
+    private int _appID;
+    private GameSession _gs;
+    private Patient _patient;
+    private float _timeSpentOnPatient;
+    private float _timeInfoOnPatient;
+    private int _timesClickedPatientInfo;
 
     public GameSession Gs
     {
-        get => gs;
-        set => gs = value;
+        get => _gs;
+        set => _gs = value;
     }
 
     public Patient Patient
     {
-        get => patient;
-        set => patient = value;
+        get => _patient;
+        set => _patient = value;
     }
 
     public float TimeSpentOnPatient
     {
-        get => timeSpentOnPatient;
-        set => timeSpentOnPatient = value;
+        get => _timeSpentOnPatient;
+        set => _timeSpentOnPatient = value;
     }
 
     public float TimeInfoOnPatient
     {
-        get => timeInfoOnPatient;
-        set => timeInfoOnPatient = value;
+        get => _timeInfoOnPatient;
+        set => _timeInfoOnPatient = value;
     }
 
     public int TimesClickedPatientInfo
     {
-        get => timesClickedPatientInfo;
-        set => timesClickedPatientInfo = value;
+        get => _timesClickedPatientInfo;
+        set => _timesClickedPatientInfo = value;
     }
 
 
     public App(GameSession gs, Patient patient, float timeSpentOnPatient, float timeInfoOnPatient,
         int timesClickedPatientInfo)
     {
-        this.gs = gs;
-        this.patient = patient;
-        this.timeSpentOnPatient = timeSpentOnPatient;
-        this.timeInfoOnPatient = timeInfoOnPatient;
-        this.timesClickedPatientInfo = timesClickedPatientInfo;
+        _gs = gs;
+        _patient = patient;
+        _timeSpentOnPatient = timeSpentOnPatient;
+        _timeInfoOnPatient = timeInfoOnPatient;
+        _timesClickedPatientInfo = timesClickedPatientInfo;
     }
 }

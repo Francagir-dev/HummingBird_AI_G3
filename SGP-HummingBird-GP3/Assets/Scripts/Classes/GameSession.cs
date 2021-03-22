@@ -5,37 +5,37 @@ public class GameSession : MonoBehaviour
 {
     #region Attributes
 
-    private int gs_id;
-    private string username;
-    private string actualDate;
-    private float timeMovingAround;
+    private int _gsID;
+    private string _username;
+    private string _actualDate;
+    private float _timeMovingAround;
 
     #endregion
 
     #region Getters & Setters
 
-    public int gsID
+    public int GsID
     {
-        get => gs_id;
-        set => gs_id = value;
+        get => _gsID;
+        set => _gsID = value;
     }
 
     public string Username
     {
-        get => username;
-        set => username = value;
+        get => _username;
+        set => _username = value;
     }
 
     public string ActualDate
     {
-        get => actualDate;
-        set => actualDate = value;
+        get => _actualDate;
+        set => _actualDate = value;
     }
 
     public float TimeMovingAround
     {
-        get => timeMovingAround;
-        set => timeMovingAround = value;
+        get => _timeMovingAround;
+        set => _timeMovingAround = value;
     }
 
     #endregion
@@ -48,20 +48,28 @@ public class GameSession : MonoBehaviour
 
     public GameSession(string username)
     {
-        this.username = username;
+        _username = username;
+        _actualDate = CreateDate();
     }
 
     public GameSession(float timeMovingAround)
     {
-        this.timeMovingAround = timeMovingAround;
+        _timeMovingAround = timeMovingAround;
+        _actualDate = CreateDate();
     }
 
     public GameSession(string username, float timeMovingAround)
     {
-        this.username = username;
-        actualDate = System.DateTime.Now.Hour + " : " + System.DateTime.Now.Minute + " . "
-                     + System.DateTime.Now.Day + "-" + System.DateTime.Now.Month + "-" + System.DateTime.Now.Year + ".";
-        this.timeMovingAround = timeMovingAround;
+        _username = username;
+        _actualDate = CreateDate();
+        _timeMovingAround = timeMovingAround;
+    }
+
+    private string CreateDate()
+    {
+        return System.DateTime.Now.Hour + " : " + System.DateTime.Now.Minute + " . "
+               + System.DateTime.Now.Day + "-" + System.DateTime.Now.Month + "-" + System.DateTime.Now.Year +
+               ".";
     }
 
     #endregion

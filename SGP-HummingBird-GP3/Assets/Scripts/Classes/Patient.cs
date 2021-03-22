@@ -5,23 +5,23 @@ using UnityEngine;
 [System.Serializable]
 public class Patient : MonoBehaviour
 {
-    private int patient_id;
-    private string name;
+    private int _patientID;
+    private string _name;
 
     public int PatientID
     {
-        get => patient_id;
-        set => patient_id = value;
+        get => _patientID;
+        set => _patientID = value;
     }
 
     public string Name
     {
-        get => name;
-        set => name = value;
+        get => _name;
+        set => _name = value;
     }
 
     public Patient(string name)
     {
-        this.name = name;
+        _name = name;
     }
 }

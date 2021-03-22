@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Data;
 using Mono.Data.Sqlite;
-using TMPro;
 using UnityEngine;
 
 public class DataBaseManager : MonoBehaviour
 {
+    public static DataBaseManager dbManager;
     string connectionString;
     string sqlQuery;
     IDbConnection dbconn;
@@ -23,8 +21,11 @@ public class DataBaseManager : MonoBehaviour
         CreateTable();
     }
 
+    private void Start()
+    {
+        dbManager = this;
+    }
     //SELECT GameSession.username as 'player',AVG(accuracyScore) AS 'Average of Accuracy' FROM Accuracy INNER JOIN GameSession ON  Accuracy.gs_id=GameSession.id order by(SELECT AVG(Accuracy.accuracyScore)FROM Accuracy INNER JOIN GameSession ON  Accuracy.gs_id=GameSession.id);
-
     #region Create DB
 
     /// <summary>
@@ -52,7 +53,7 @@ public class DataBaseManager : MonoBehaviour
                        "[model_id] INTEGER  NOT NULL PRIMARY KEY AUTOINCREMENT," +
                        "[patient_id] INTEGER NOT NULL," +
                        "[name] VARCHAR(255)  NOT NULL," +
-                       "[timeBeingWatched] BLOB  NOT NULL,"+
+                       "[timeBeingWatched] BLOB  NOT NULL," +
                        "FOREIGN KEY (patient_id) REFERENCES GameSession(patient_id))";
             dbcmd.CommandText = sqlQuery;
             dbcmd.ExecuteScalar();
@@ -63,7 +64,7 @@ public class DataBaseManager : MonoBehaviour
                        "[timeSpentOnPatient] BLOB NOT NULL," +
                        "[timeInfoToPatient] BLOB NOT NULL," +
                        "[timesClickedPatient] INTEGER  NOT NULL," +
-                       "FOREIGN KEY (patient_id) REFERENCES GameSession(patient_id),"+
+                       "FOREIGN KEY (patient_id) REFERENCES GameSession(patient_id)," +
                        "FOREIGN KEY (gs_id) REFERENCES GameSession(gs_id))";
             dbcmd.CommandText = sqlQuery;
             dbcmd.ExecuteScalar();
