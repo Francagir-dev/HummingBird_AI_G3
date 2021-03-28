@@ -5,12 +5,47 @@ using UnityEngine;
 [System.Serializable]
 public class App : MonoBehaviour
 {
+    #region Constructors
+
+    public App()
+    {
+    }
+
+    public App(int appID, GameSession gs, Patient patient, float timeSpentOnPatient, float timeInfoOnPatient,
+        int timesClickedPatientInfo)
+    {
+        _appID = appID;
+        _gs = gs;
+        _patient = patient;
+        _timeSpentOnPatient = timeSpentOnPatient;
+        _timeInfoOnPatient = timeInfoOnPatient;
+        _timesClickedPatientInfo = timesClickedPatientInfo;
+    }
+
+    public App(GameSession gs, Patient patient, float timeSpentOnPatient, float timeInfoOnPatient,
+        int timesClickedPatientInfo)
+    {
+        _gs = gs;
+        _patient = patient;
+        _timeSpentOnPatient = timeSpentOnPatient;
+        _timeInfoOnPatient = timeInfoOnPatient;
+        _timesClickedPatientInfo = timesClickedPatientInfo;
+    }
+
+    #endregion
+
+    #region Attributes
+
     private int _appID;
     private GameSession _gs;
     private Patient _patient;
     private float _timeSpentOnPatient;
     private float _timeInfoOnPatient;
     private int _timesClickedPatientInfo;
+
+    #endregion
+
+    #region Getters and Setters
 
     public GameSession Gs
     {
@@ -42,14 +77,17 @@ public class App : MonoBehaviour
         set => _timesClickedPatientInfo = value;
     }
 
+    #endregion
 
-    public App(GameSession gs, Patient patient, float timeSpentOnPatient, float timeInfoOnPatient,
-        int timesClickedPatientInfo)
+    #region Methods
+
+    public override string ToString()
     {
-        _gs = gs;
-        _patient = patient;
-        _timeSpentOnPatient = timeSpentOnPatient;
-        _timeInfoOnPatient = timeInfoOnPatient;
-        _timesClickedPatientInfo = timesClickedPatientInfo;
+        return _appID + ".- GameSession: " + _gs.ToString() + " ,Patient: " + _patient.ToString() +
+               " timeSpentOnPatient: " +
+               _timeSpentOnPatient + " timeInfoOnPatient: " + _timeInfoOnPatient + " ,timesClickedPatientInfo: " +
+               _timesClickedPatientInfo;
     }
+
+    #endregion
 }

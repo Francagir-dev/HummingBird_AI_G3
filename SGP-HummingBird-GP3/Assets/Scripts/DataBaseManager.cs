@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using Mono.Data.Sqlite;
+using NUnit.Framework;
 using UnityEngine;
 
 public class DataBaseManager : MonoBehaviour
@@ -12,6 +14,82 @@ public class DataBaseManager : MonoBehaviour
     IDbCommand dbcmd;
 
     string DATABASE_NAME = "/HummingBird.db; PRAGMA foreign_keys = ON;";
+
+    #region InfoFromDB
+
+    #region Lists of classes
+
+    private List<GameSession> _allGameSessions = new List<GameSession>();
+    private List<Patient> _allPatients = new List<Patient>();
+    private List<App> _allAppInfo = new List<App>();
+    private List<Model> _allModelInfo = new List<Model>();
+
+    #endregion
+
+    #region Last item of DB
+
+    private GameSession _lastGs;
+    private Patient _lastPatient;
+    private App _lastAppInfo;
+    private Model _lastModelInfo;
+    private Patient _specificPatient;
+
+    #endregion
+
+    #region Getters & Setters
+
+    public List<GameSession> AllGameSessions
+    {
+        get => _allGameSessions;
+        set => _allGameSessions = value;
+    }
+
+    public List<Patient> AllPatients
+    {
+        get => _allPatients;
+        set => _allPatients = value;
+    }
+
+    public List<App> AllAppInfo
+    {
+        get => _allAppInfo;
+        set => _allAppInfo = value;
+    }
+
+    public List<Model> AllModelInfo
+    {
+        get => _allModelInfo;
+        set => _allModelInfo = value;
+    }
+
+    public GameSession LastGs
+    {
+        get => _lastGs;
+        set => _lastGs = value;
+    }
+
+    public Patient LastPatient
+    {
+        get => _lastPatient;
+        set => _lastPatient = value;
+    }
+
+    public App LastAppInfo
+    {
+        get => _lastAppInfo;
+        set => _lastAppInfo = value;
+    }
+
+    public Model LastModelInfo
+    {
+        get => _lastModelInfo;
+        set => _lastModelInfo = value;
+    }
+
+    #endregion
+
+    #endregion
+
 
     private void Awake()
     {
@@ -25,7 +103,11 @@ public class DataBaseManager : MonoBehaviour
     {
         dbManager = this;
     }
-    //SELECT GameSession.username as 'player',AVG(accuracyScore) AS 'Average of Accuracy' FROM Accuracy INNER JOIN GameSession ON  Accuracy.gs_id=GameSession.id order by(SELECT AVG(Accuracy.accuracyScore)FROM Accuracy INNER JOIN GameSession ON  Accuracy.gs_id=GameSession.id);
+
+    /* A SIMPLE BASIC QUERY With different tables:
+    * SELECT GameSession.username as 'player',AVG(accuracyScore) AS 'Average of Accuracy' FROM Accuracy INNER JOIN GameSession ON  Accuracy.gs_id=GameSession.id order by(SELECT AVG(Accuracy.accuracyScore)FROM Accuracy INNER JOIN GameSession ON  Accuracy.gs_id=GameSession.id);
+    */
+
     #region Create DB
 
     /// <summary>
@@ -75,13 +157,17 @@ public class DataBaseManager : MonoBehaviour
     #endregion
 
 
-    #region GET METHODS (DATABASE)
+    #region CRUD
+
+    #region C => Create (Getter)
 
     /// <summary>
     /// Get all GameSessions
     /// </summary>
-    public void GetInfo()
+    public void GetAllGameSessions()
     {
+        //Clear prev list
+        _allGameSessions.Clear();
         using (dbconn = new SqliteConnection(connectionString))
         {
             dbconn.Open();
@@ -93,7 +179,9 @@ public class DataBaseManager : MonoBehaviour
                 {
                     while (reader.Read())
                     {
-                        // GameSession gs = new GameSession(reader.GetInt32(0), reader.GetString(1), reader.GetString(2));
+                        _allGameSessions.Add(new GameSession(reader.GetInt32(0), reader.GetString(1),
+                            reader.GetString(2),
+                            reader.GetFloat(3)));
                     }
 
                     dbconn.Close();
@@ -106,7 +194,7 @@ public class DataBaseManager : MonoBehaviour
     /// <summary>
     /// Get last GameSession
     /// </summary>
-    public void GetLastGameSessionID()
+    public void GetLastGameSession()
     {
         using (dbconn = new SqliteConnection(connectionString))
         {
@@ -119,6 +207,276 @@ public class DataBaseManager : MonoBehaviour
                 {
                     while (reader.Read())
                     {
+                        try
+                        {
+                            _lastGs = new GameSession(reader.GetInt32(0), reader.GetString(1),
+                                reader.GetString(2),
+                                reader.GetFloat(3));
+                            Debug.Log(_lastGs.ToString());
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            throw;
+                        }
+                    }
+
+                    dbconn.Close();
+                    reader.Close();
+                }
+            }
+        }
+    }
+
+    /// <summary>
+    /// Get all Patients
+    /// </summary>
+    public void GetAllPatients()
+    {
+        //Clearing prev List
+        _allPatients.Clear();
+        //Open Conn
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                string sqlQuery = "SELECT * FROM Patient";
+                dbcmd.CommandText = sqlQuery;
+                using (IDataReader reader = dbcmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        _allPatients.Add(new Patient(reader.GetInt32(0), reader.GetString(1)));
+                    }
+
+                    dbconn.Close();
+                    reader.Close();
+                }
+            }
+        }
+    }
+
+    /// <summary>
+    /// Get last Patient
+    /// </summary>
+    public void GetLastPatient()
+    {
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                string sqlQuery = "SELECT * FROM GameSession ORDER BY gs_id DESC LIMIT 1";
+                dbcmd.CommandText = sqlQuery;
+                using (IDataReader reader = dbcmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        try
+                        {
+                            _lastPatient = new Patient(reader.GetInt32(0), reader.GetString(1));
+                            Debug.Log(_lastPatient.ToString());
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            throw;
+                        }
+                    }
+
+                    dbconn.Close();
+                    reader.Close();
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// Get an specific Patient
+    /// </summary>
+    public void GetSpecificPatient(string name)
+    {
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                string sqlQuery = "SELECT * FROM Patient WHERE name = " + name + "ORDER BY gs_id DESC LIMIT 1";
+                dbcmd.CommandText = sqlQuery;
+                using (IDataReader reader = dbcmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        try
+                        {
+                            _specificPatient = new Patient(reader.GetInt32(0), reader.GetString(1));
+                            Debug.Log(_lastGs.ToString());
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            throw;
+                        }
+                    }
+
+                    dbconn.Close();
+                    reader.Close();
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// Get all Apps
+    /// </summary>
+    public void GetAllApps()
+    {
+        _allAppInfo.Clear();
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                string sqlQuery =
+                    "SELECT  App.app_id, App.timeSpentOnPatient,App.timeInfoToPatient App.timesClickedPatient, GameSession.gs_id, GameSession.username, GameSession.actualDate, GameSession.timeMovingAround, Patient.patient_id, Patient.name FROM App INNER JOIN GameSession ON App.gs_id=GameSession.gs_id INNER JOIN Patient ON App.patient_id=Patient.patient_id order by App.app_id";
+                dbcmd.CommandText = sqlQuery;
+                using (IDataReader reader = dbcmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        try
+                        {
+                            _allAppInfo.Add(new App(reader.GetInt32(0),
+                                new GameSession(reader.GetInt32(4), reader.GetString(5),
+                                    reader.GetString(6),
+                                    reader.GetFloat(7)),
+                                new Patient(reader.GetInt32(8), reader.GetString(9)),
+                                reader.GetFloat(1),
+                                reader.GetFloat(2),
+                                reader.GetInt32(3)));
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            throw;
+                        }
+                    }
+
+                    dbconn.Close();
+                    reader.Close();
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// Get last App
+    /// </summary>
+    public void GetLastApp()
+    {
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                string sqlQuery =
+                    "SELECT  App.app_id, App.timeSpentOnPatient,App.timeInfoToPatient App.timesClickedPatient, GameSession.gs_id, GameSession.username, GameSession.actualDate, GameSession.timeMovingAround, Patient.patient_id, Patient.name FROM App INNER JOIN GameSession ON App.gs_id=GameSession.gs_id INNER JOIN Patient ON App.patient_id=Patient.patient_id order by App.app_id";
+                dbcmd.CommandText = sqlQuery;
+                using (IDataReader reader = dbcmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        try
+                        {
+                            _lastAppInfo = new App(reader.GetInt32(0),
+                                new GameSession(reader.GetInt32(4), reader.GetString(5),
+                                    reader.GetString(6),
+                                    reader.GetFloat(7)),
+                                new Patient(reader.GetInt32(8), reader.GetString(9)),
+                                reader.GetFloat(1),
+                                reader.GetFloat(2),
+                                reader.GetInt32(3));
+
+                            Debug.Log(_lastAppInfo.ToString());
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            throw;
+                        }
+                    }
+
+                    dbconn.Close();
+                    reader.Close();
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// Get all Models
+    /// </summary>
+    public void GetAllModels()
+    {
+        _allModelInfo.Clear();
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                string sqlQuery =
+                    "SELECT Patient.patient_id, Patient.name,Model.model_id, Model.name, Model.timeBeingWatched FROM Patient INNER JOIN GameSession ON  Model.patient_id=Patient.patient_id order by Model.model_id";
+                dbcmd.CommandText = sqlQuery;
+                using (IDataReader reader = dbcmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        try
+                        {
+                            _allModelInfo.Add(new Model(reader.GetInt32(2),
+                                new Patient(reader.GetInt32(0), reader.GetString(1)), reader.GetString(3),
+                                reader.GetFloat(4)));
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            throw;
+                        }
+                    }
+
+                    dbconn.Close();
+                    reader.Close();
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// Get last Model
+    /// </summary>
+    public void GetLastModel()
+    {
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                string sqlQuery =
+                    "SELECT Patient.patient_id, Patient.name,Model.model_id, Model.name, Model.timeBeingWatched FROM Patient INNER JOIN GameSession ON  Model.patient_id=Patient.patient_id order by Model.model_id";
+                dbcmd.CommandText = sqlQuery;
+                using (IDataReader reader = dbcmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        try
+                        {
+                            _lastModelInfo = new Model(reader.GetInt32(2),
+                                new Patient(reader.GetInt32(0), reader.GetString(1)), reader.GetString(3),
+                                reader.GetFloat(4));
+
+                            Debug.Log(_lastModelInfo.ToString());
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            throw;
+                        }
                     }
 
                     dbconn.Close();
@@ -129,16 +487,6 @@ public class DataBaseManager : MonoBehaviour
     }
 
     #endregion
-
-
-    #region POST INFO INTO DB
-
-    /// <summary>
-    /// Add all info to the Database
-    /// </summary>
-    public void PostInfo(float[] accuracyPoints, float[] timeSeen, float[] timeHit)
-    {
-    }
 
     #endregion
 }

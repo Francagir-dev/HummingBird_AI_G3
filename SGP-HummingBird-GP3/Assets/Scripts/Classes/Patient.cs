@@ -20,8 +20,19 @@ public class Patient : MonoBehaviour
         set => _name = value;
     }
 
+    public Patient(int patientID, string name)
+    {
+        _patientID = patientID;
+        _name = name;
+    }
+
     public Patient(string name)
     {
         _name = name;
+    }
+
+    public override string ToString()
+    {
+        return _patientID + ".- name: " + _name+". ";
     }
 }

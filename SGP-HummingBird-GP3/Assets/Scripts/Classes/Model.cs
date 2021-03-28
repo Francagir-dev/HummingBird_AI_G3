@@ -10,6 +10,8 @@ public class Model : MonoBehaviour
     private string _name;
     private float _timeBeingWatched;
 
+    #region Getters and Setters
+
     public Patient Patient
     {
         get => _patient;
@@ -28,6 +30,21 @@ public class Model : MonoBehaviour
         set => _timeBeingWatched = value;
     }
 
+    #endregion
+
+    #region Constructors
+
+    public Model()
+    {
+    }
+
+    public Model(int modelID, Patient patient, string name, float timeBeingWatched)
+    {
+        _modelID = modelID;
+        _patient = patient;
+        _name = name;
+        _timeBeingWatched = timeBeingWatched;
+    }
 
     public Model(Patient patient, string name, float timeBeingWatched)
     {
@@ -35,4 +52,12 @@ public class Model : MonoBehaviour
         _name = name;
         _timeBeingWatched = timeBeingWatched;
     }
+
+    public override string ToString()
+    {
+        return _modelID + ".- name: " + _name + ", time being watched: " + _timeBeingWatched + " from patient : " +
+               _patient.ToString();
+    }
+
+    #endregion
 }
