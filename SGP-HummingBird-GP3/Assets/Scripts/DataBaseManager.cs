@@ -115,6 +115,8 @@ public class DataBaseManager : MonoBehaviour
     /// </summary>
     private void CreateTable()
     {
+        // VARCHAR => STRING
+        // BLOB => FLOAT (OR DECIMAL NUMBERS)
         using (dbconn = new SqliteConnection(connectionString))
         {
             dbconn.Open();
@@ -157,9 +159,7 @@ public class DataBaseManager : MonoBehaviour
     #endregion
 
 
-    #region CRUD
-
-    #region C => Create (Getter)
+    #region Get Info From DB
 
     /// <summary>
     /// Get all GameSessions
@@ -291,6 +291,7 @@ public class DataBaseManager : MonoBehaviour
             }
         }
     }
+
     /// <summary>
     /// Get an specific Patient
     /// </summary>
@@ -325,6 +326,7 @@ public class DataBaseManager : MonoBehaviour
             }
         }
     }
+
     /// <summary>
     /// Get all Apps
     /// </summary>
@@ -367,6 +369,7 @@ public class DataBaseManager : MonoBehaviour
             }
         }
     }
+
     /// <summary>
     /// Get last App
     /// </summary>
@@ -410,6 +413,7 @@ public class DataBaseManager : MonoBehaviour
             }
         }
     }
+
     /// <summary>
     /// Get all Models
     /// </summary>
@@ -447,6 +451,7 @@ public class DataBaseManager : MonoBehaviour
             }
         }
     }
+
     /// <summary>
     /// Get last Model
     /// </summary>
@@ -487,6 +492,34 @@ public class DataBaseManager : MonoBehaviour
     }
 
     #endregion
+
+    #region C => Create (Add to DB, POST)
+
+    //POST => Add to DB
+    public void PostAPP(float timeSpentOnPatient, float timeInfoToPatient,
+        int timesClickedPatient) // add the variables needed
+    {
+        GetLastGameSession();
+        GetLastPatient();
+        string sqlQuery;
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                /*
+                 * You'll need all colums (see Create DB function), if there is an "object" as GameSession, you'll need to add just its id (Variable from its class)
+                * Those objects should not be null
+                */
+                sqlQuery = String.Format(
+                    "INSERT INTO App(gs_id,patient_id,timeSpentOnPatient,timeInfoToPatient,timesClickedPatient) VALUES(\"{0}\",\"{1}\",\"{2}\",\"{3}\",\"{4}\")",
+                    _lastGs.GsID, _lastPatient.PatientID, timeSpentOnPatient, timeInfoToPatient, timesClickedPatient);
+                dbcmd.CommandText = sqlQuery;
+                dbcmd.ExecuteScalar();
+                dbconn.Close();
+            }
+        }
+    }
 
     #endregion
 }

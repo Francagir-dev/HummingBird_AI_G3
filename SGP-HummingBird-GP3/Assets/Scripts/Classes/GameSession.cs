@@ -5,7 +5,7 @@ public class GameSession : MonoBehaviour
 {
     #region Attributes
 
-    private int _gsID;
+    private int _id;
     private string _username;
     private string _actualDate;
     private float _timeMovingAround;
@@ -40,7 +40,7 @@ public class GameSession : MonoBehaviour
 
     public GameSession(int gsID, string username, string actualDate, float timeMovingAround)
     {
-        _gsID = gsID;
+        _id = gsID;
         _username = username;
         _actualDate = actualDate;
         _timeMovingAround = timeMovingAround;
@@ -48,7 +48,7 @@ public class GameSession : MonoBehaviour
 
     public GameSession(int gsID, string username, float timeMovingAround)
     {
-        _gsID = gsID;
+        _id = gsID;
         _username = username;
         _actualDate = CreateDate();
         _timeMovingAround = timeMovingAround;
@@ -60,8 +60,8 @@ public class GameSession : MonoBehaviour
 
     public int GsID
     {
-        get => _gsID;
-        set => _gsID = value;
+        get => _id;
+        set => _id = value;
     }
 
     public string Username
@@ -95,7 +95,7 @@ public class GameSession : MonoBehaviour
 
     public override string ToString()
     {
-        return _gsID + ".- username: " + _username + " date of gameplay: " + _actualDate + " has spend: " +
+        return _id + ".- username: " + _username + " date of gameplay: " + _actualDate + " has spend: " +
                _timeMovingAround + " moving around.";
     }
 
