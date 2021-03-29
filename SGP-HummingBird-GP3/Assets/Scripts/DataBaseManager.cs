@@ -496,9 +496,10 @@ public class DataBaseManager : MonoBehaviour
     #region C => Create (Add to DB, POST)
 
     //POST => Add to DB
-    public void PostAPP(float timeSpentOnPatient, float timeInfoToPatient,
+    public void InsertAppInfo(float timeSpentOnPatient, float timeInfoToPatient,
         int timesClickedPatient) // add the variables needed
     {
+      
         GetLastGameSession();
         GetLastPatient();
         string sqlQuery;
@@ -509,8 +510,8 @@ public class DataBaseManager : MonoBehaviour
             {
                 /*
                  * You'll need all colums (see Create DB function), if there is an "object" as GameSession, you'll need to add just its id (Variable from its class)
-                * Those objects should not be null
-                */
+                 * Those objects should not be null (So call those Insert Queries first)
+                 */
                 sqlQuery = String.Format(
                     "INSERT INTO App(gs_id,patient_id,timeSpentOnPatient,timeInfoToPatient,timesClickedPatient) VALUES(\"{0}\",\"{1}\",\"{2}\",\"{3}\",\"{4}\")",
                     _lastGs.GsID, _lastPatient.PatientID, timeSpentOnPatient, timeInfoToPatient, timesClickedPatient);
@@ -520,6 +521,5 @@ public class DataBaseManager : MonoBehaviour
             }
         }
     }
-
     #endregion
 }
