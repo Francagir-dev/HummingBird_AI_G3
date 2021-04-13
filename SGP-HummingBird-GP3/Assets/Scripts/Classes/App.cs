@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class App : MonoBehaviour
+public class App : ScriptableObject
 {
     #region Constructors
 

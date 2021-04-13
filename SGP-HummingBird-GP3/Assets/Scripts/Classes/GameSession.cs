@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [System.Serializable]
-public class GameSession : MonoBehaviour
+public class GameSession : ScriptableObject
 {
     #region Attributes
 

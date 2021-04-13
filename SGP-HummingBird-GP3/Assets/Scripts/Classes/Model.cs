@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Model : MonoBehaviour
+public class Model : ScriptableObject
 {
     private int _modelID;
     private Patient _patient;

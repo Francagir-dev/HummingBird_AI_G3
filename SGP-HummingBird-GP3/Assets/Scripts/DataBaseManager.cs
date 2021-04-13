@@ -102,6 +102,7 @@ public class DataBaseManager : MonoBehaviour
     private void Start()
     {
         dbManager = this;
+        GetLastApp();
     }
 
     /* A SIMPLE BASIC QUERY With different tables:
@@ -138,7 +139,7 @@ public class DataBaseManager : MonoBehaviour
                        "[patient_id] INTEGER NOT NULL," +
                        "[name] VARCHAR(255)  NOT NULL," +
                        "[timeBeingWatched] BLOB  NOT NULL," +
-                       "FOREIGN KEY (patient_id) REFERENCES GameSession(patient_id))";
+                       "FOREIGN KEY (patient_id) REFERENCES Patient(patient_id))";
             dbcmd.CommandText = sqlQuery;
             dbcmd.ExecuteScalar();
             sqlQuery = "CREATE TABLE IF NOT EXISTS [App] (" +
@@ -148,7 +149,7 @@ public class DataBaseManager : MonoBehaviour
                        "[timeSpentOnPatient] BLOB NOT NULL," +
                        "[timeInfoToPatient] BLOB NOT NULL," +
                        "[timesClickedPatient] INTEGER  NOT NULL," +
-                       "FOREIGN KEY (patient_id) REFERENCES GameSession(patient_id)," +
+                       "FOREIGN KEY (patient_id) REFERENCES Patient(patient_id)," +
                        "FOREIGN KEY (gs_id) REFERENCES GameSession(gs_id))";
             dbcmd.CommandText = sqlQuery;
             dbcmd.ExecuteScalar();
@@ -267,22 +268,14 @@ public class DataBaseManager : MonoBehaviour
             dbconn.Open();
             using (dbcmd = dbconn.CreateCommand())
             {
-                string sqlQuery = "SELECT * FROM GameSession ORDER BY gs_id DESC LIMIT 1";
+                string sqlQuery = "SELECT * FROM Patient ORDER BY patient_id DESC LIMIT 1";
                 dbcmd.CommandText = sqlQuery;
                 using (IDataReader reader = dbcmd.ExecuteReader())
                 {
                     while (reader.Read())
                     {
-                        try
-                        {
-                            _lastPatient = new Patient(reader.GetInt32(0), reader.GetString(1));
-                            Debug.Log(_lastPatient.ToString());
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(e);
-                            throw;
-                        }
+                        _lastPatient = new Patient(reader.GetInt32(0), reader.GetString(1));
+                        Debug.LogWarning(_lastPatient.ToString());
                     }
 
                     dbconn.Close();
@@ -381,7 +374,7 @@ public class DataBaseManager : MonoBehaviour
             using (dbcmd = dbconn.CreateCommand())
             {
                 string sqlQuery =
-                    "SELECT  App.app_id, App.timeSpentOnPatient,App.timeInfoToPatient App.timesClickedPatient, GameSession.gs_id, GameSession.username, GameSession.actualDate, GameSession.timeMovingAround, Patient.patient_id, Patient.name FROM App INNER JOIN GameSession ON App.gs_id=GameSession.gs_id INNER JOIN Patient ON App.patient_id=Patient.patient_id order by App.app_id";
+                    "SELECT App.app_id, App.timeSpentOnPatient,App.timeInfoToPatient, App.timesClickedPatient, GameSession.gs_id, GameSession.username, GameSession.actualDate, GameSession.timeMovingAround, Patient.patient_id, Patient.name FROM App INNER JOIN GameSession ON App.gs_id=GameSession.gs_id INNER JOIN Patient ON App.patient_id=Patient.patient_id order by App.app_id";
                 dbcmd.CommandText = sqlQuery;
                 using (IDataReader reader = dbcmd.ExecuteReader())
                 {
@@ -398,7 +391,7 @@ public class DataBaseManager : MonoBehaviour
                                 reader.GetFloat(2),
                                 reader.GetInt32(3));
 
-                            Debug.Log(_lastAppInfo.ToString());
+                            Debug.LogWarning(_lastAppInfo.ToString());
                         }
                         catch (Exception e)
                         {
@@ -499,7 +492,6 @@ public class DataBaseManager : MonoBehaviour
     public void InsertAppInfo(float timeSpentOnPatient, float timeInfoToPatient,
         int timesClickedPatient) // add the variables needed
     {
-      
         GetLastGameSession();
         GetLastPatient();
         string sqlQuery;
@@ -521,5 +513,6 @@ public class DataBaseManager : MonoBehaviour
             }
         }
     }
+
     #endregion
 }
