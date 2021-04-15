@@ -7,7 +7,7 @@ using UnityEngine;
 public class PersistentManager : MonoBehaviour
 {
     public static PersistentManager persistentDataManager;
-    public static InfoToPersist infoToPersist;
+    public string username;
 
     public void Awake()
     {
@@ -21,17 +21,5 @@ public class PersistentManager : MonoBehaviour
         {
             Destroy(this);
         }
-    }
-}
-
-[System.Serializable]
-public class InfoToPersist
-{
-    public static InfoToPersist infoToPersist;
-    public string username;
-
-    public void Awake()
-    {
-        infoToPersist = this;
     }
 }
