@@ -77,6 +77,7 @@ public class App : MonoBehaviour
         set => _timesClickedPatientInfo = value;
     }
 
+
     #endregion
 
     #region Methods
