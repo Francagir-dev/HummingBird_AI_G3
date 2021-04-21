@@ -2,470 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b3ae790-fa0f-4c73-8caf-d148bb0f70ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Classes/PatientInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShowBothPatientsInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShowBothPatientsInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Component 30 – 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Component 30 – 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Path 28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Path 28.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Patient Details.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Patient Details.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Patient List.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Patient List.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Patient comparison.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Patient comparison.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/PatientView.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/PatientView.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Rectangle 33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Rectangle 33.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Rectangle 58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Rectangle 58.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Repeat Grid 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/APP UI/Repeat Grid 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SGP-HummingBird-GP3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SGP-HummingBird-GP3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Roboto-Thin SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Roboto-Thin SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/coolvetica rg SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/coolvetica rg SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRaycaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRRaycaster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HospitalRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HospitalRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangePictureUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangePictureUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Patient_Info_view.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Patient_Info_view.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Patient_List__Notification.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Patient_List__Notification.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/00/002dda926b169029d78d44a9dc0ec4b6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/02ad9b85af053a4d9622db4990168ed7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/04/04dcc859b9d548053866dfae0a3d0da2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/08/08d3b5083511ceba1bccaeea6bd91bf9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0b/0bc9829a6ac96211561c18a5bded6ea2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0c/0cc0fee0c4ac0f188f08118d86946be1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0c/0cd9aa15b94ca0c3818e1cf277c6480f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/12c7fc620dab759a63f0e7491ad70567" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/14/14c94231d70382aeb7d62ec276b52c6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/22/2276b72230c0f492088fa8dda762d0ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/29/29cff47d9d24e71b45de4b1701c0f3cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2b/2b8b8df9dcc849c4d9d4689a81518a73" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3a/3ae39006289be8a89d3483dd32330a0e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/45/4592194fe7205cf08a1cbd69894e40b7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/48/483e0edf39c59366d6bee9e382934fef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4aa4cabcd8a5a41841af7e7fa184160d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4c/4c248afad5a79d6ec5fb4ef060fb3b56" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/54/541fe7c936dca62825f1d74f08cf64c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/55/55fcc30ecaf7fd8f584b398bbc356f4b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/67/677b1321c2938750f880c14eae7c0af5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/69/69d52211d78da39ab19decf0ed4611e4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6a/6abea1d65666ec96adfe9678340c801f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/71/713bf58ccada1305096e07b1d7510141" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/72/72b052f6b483384033ed2ac2ff9e11c4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/76/7614b1d48e2d1b89131d62514c054c95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/76/7693739527b74c2b17fe7323e9b18134" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/76/76b74d7174a5b69480113d4e38016b8d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7f/7faf098904ac05e01619d12c65036950" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/87/873729b14b5ea2cd5cb68624826a8e3f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8f/8f360ea63e8092be6a3bba6094a60601" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/96/960f20243747540922ae0eeae7ab577f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/99/99ba6cc50f72c091918d574ac281f8e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9cf84d5d8a528298dfac049c8407ff99" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a01ab9f4a45cfb042d8d60eb5508a743" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a5/a5aa3c1f99cfe1b4f051d2ed34b273d6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ac/ac3bd7fb3499acd21f7dd6141d52a895" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ac/acb474d9d077f07d4b44253799629afd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b1/b14ab8baee2c8874689c50385c3eaa49" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ba/bac78213775d53ef6fbf7e0526435332" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c1/c1c784918e00c6b53d4962ba27e17235" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c4/c492eaf8ad55669c116621efda82f487" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ce/ce1b514727ace689aaedf83ceb51c162" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d0/d0df86d9c22b28aeaa165a057a0244c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d1/d10b94fab92baf96250b9770807785e4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e4/e4915a5cea80ce276e6e44f3ca236557" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e8/e8196f38191562bbfc832476ce40e051" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@7.3.1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@7.3.1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.subsystemregistration@1.0.6/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.subsystemregistration@1.0.6/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.6/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.6/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/CHANGELOG.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/ArmModels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/ArmModels/ArmModelEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/ArmModels/ArmModelEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/ArmModels/SwingArmModelEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/ArmModels/SwingArmModelEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/ArmModels/TransitionArmModelEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/ArmModels/TransitionArmModelEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/CameraOffsetEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/CameraOffsetEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/LegacyInputHelpersEditor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/LegacyInputHelpersEditor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/MenuUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/MenuUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/SeedXRInputBindings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/SeedXRInputBindings/SeedXRInputBindings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/SeedXRInputBindings/SeedXRInputBindings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/TrackedPoseDriver.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/TrackedPoseDriver/TPDConfigurationProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/TrackedPoseDriver/TPDConfigurationProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/TrackedPoseDriver/TrackedPoseDriverEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/TrackedPoseDriver/TrackedPoseDriverEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/LICENSE.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Prefabs/XRRig.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Prefabs/XRRig.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/ArmModels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/ArmModels/ArmModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/ArmModels/ArmModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/ArmModels/SwingArmModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/ArmModels/SwingArmModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/ArmModels/TransitionArmModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/ArmModels/TransitionArmModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/CameraOffset.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/CameraOffset.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/LegacyInputHelpers.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/LegacyInputHelpers.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver/AssemblyInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver/BasePoseProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver/BasePoseProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver/TrackedPoseDriver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver/TrackedPoseDriver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Editor/LegacyInputHelpersEditorTests.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Editor/LegacyInputHelpersEditorTests.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Editor/SeedXRInputBindings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Editor/SeedXRInputBindings/SeedXRInputBindingsTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Editor/SeedXRInputBindings/SeedXRInputBindingsTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Runtime/TrackedPoseDriver.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Runtime/TrackedPoseDriver/TrackedPoseDriverTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Runtime/TrackedPoseDriver/TrackedPoseDriverTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Third Party Notices.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Third Party Notices.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/package.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/CHANGELOG.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/BuildHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/BuildHelpers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/BuildHelpers.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/BuildHelpers.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/EditorUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/EditorUtilities.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/EditorUtilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/EditorUtilities.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Legacy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Legacy.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Legacy/XRLegacyUninstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Legacy/XRLegacyUninstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Legacy/XRLegacyUninstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Legacy/XRLegacyUninstaller.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/KnownPackages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/KnownPackages.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/KnownPackages.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/KnownPackages.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/XRPackage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/XRPackage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/XRPackage.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/XRPackage.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/XRPackageMetadata.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/XRPackageMetadata.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/XRPackageMetadata.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Metadata/XRPackageMetadata.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/TypeLoaderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/TypeLoaderExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/TypeLoaderExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/TypeLoaderExtensions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Unity.XR.Management.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Unity.XR.Management.Editor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Unity.XR.Management.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/Unity.XR.Management.Editor.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRBuildProcessorHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRBuildProcessorHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRBuildProcessorHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRBuildProcessorHelper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRConfigurationProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRConfigurationProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRConfigurationProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRConfigurationProvider.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRConstants.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRConstants.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRConstants.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XREditorWorkQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XREditorWorkQueue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XREditorWorkQueue.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XREditorWorkQueue.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralBuildProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralBuildProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralBuildProcessor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralBuildProcessor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralSettingsPerBuildTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralSettingsPerBuildTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralSettingsPerBuildTarget.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralSettingsPerBuildTarget.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralSettingsUpgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralSettingsUpgrade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralSettingsUpgrade.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRGeneralSettingsUpgrade.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderInfo.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderInfoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderInfoManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderInfoManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderInfoManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderOrderUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderOrderUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderOrderUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRLoaderOrderUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRManagerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRManagerEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRManagerEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRManagerEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRPackageInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRPackageInitialization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRPackageInitialization.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRPackageInitialization.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRPackageInitializationSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRPackageInitializationSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRPackageInitializationSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRPackageInitializationSettings.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRSettingsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRSettingsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRSettingsManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRSettingsManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRSupportedBuildTargetAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRSupportedBuildTargetAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRSupportedBuildTargetAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Editor/XRSupportedBuildTargetAttribute.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/LICENSE.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/LICENSE.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/README.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/IXRLoaderPreInit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/IXRLoaderPreInit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/IXRLoaderPreInit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/IXRLoaderPreInit.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/Unity.XR.Management.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/Unity.XR.Management.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/Unity.XR.Management.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/Unity.XR.Management.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRConfigurationData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRConfigurationData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRConfigurationData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRConfigurationData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRGeneralSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRGeneralSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRGeneralSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRGeneralSettings.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRLoader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRLoaderHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRLoaderHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRLoaderHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRLoaderHelper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRManagerSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRManagerSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRManagerSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRManagerSettings.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/BuildTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/BuildTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/BuildTests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/BuildTests.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/EditorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/EditorTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/EditorTests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/EditorTests.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/MetadataTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/MetadataTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/MetadataTests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/MetadataTests.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/PackageManagementTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/PackageManagementTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/PackageManagementTests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/PackageManagementTests.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/StandaloneSubsystemTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/StandaloneSubsystemTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/StandaloneSubsystemTests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/StandaloneSubsystemTests.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/Unity.XR.Management.EditorTests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/Unity.XR.Management.EditorTests.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/Unity.XR.Management.EditorTests.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Editor/Unity.XR.Management.EditorTests.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/DummyLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/DummyLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/DummyLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/DummyLoader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeLoaderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeLoaderTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeLoaderTests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeLoaderTests.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeTestSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeTestSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeTestSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeTestSettings.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeTests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/RuntimeTests.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/Unity.XR.Management.Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/Unity.XR.Management.Tests.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/Unity.XR.Management.Tests.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/Runtime/Unity.XR.Management.Tests.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneLoader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneSubsystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneSubsystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneSubsystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneSubsystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneSubsystemDescriptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneSubsystemDescriptor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneSubsystemDescriptor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/StandaloneSubsystemDescriptor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestPackage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestPackage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestPackage.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestPackage.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestPackageMetadata.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestPackageMetadata.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestPackageMetadata.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestPackageMetadata.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestSettingsEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestSettingsEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestSettingsEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/TestSettingsEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/Constants.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/Constants.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/Constants.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderBase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderOne.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderOne.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderOne.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderThree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderThree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderThree.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderThree.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderTwo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderTwo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderTwo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestLoaderTwo.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/TestSettings.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/LoaderTestSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/LoaderTestSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/LoaderTestSetup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/LoaderTestSetup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/ManagementTestSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/ManagementTestSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/ManagementTestSetup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/ManagementTestSetup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/README.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/Unity.XR.TestSupport.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/Unity.XR.TestSupport.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/Unity.XR.TestSupport.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Tests/TestTooling/Unity.XR.TestSupport.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/ValidationExceptions.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/ValidationExceptions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/ValidationExceptions.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/ValidationExceptions.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/package.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/CHANGELOG.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/BuildHelpers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/BuildHelpers.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/EditorUtilities.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/EditorUtilities.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Legacy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Legacy/XRLegacyUninstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Legacy/XRLegacyUninstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Metadata.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Metadata/KnownPackages.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Metadata/KnownPackages.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Metadata/XRPackage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Metadata/XRPackage.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Metadata/XRPackageMetadata.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Metadata/XRPackageMetadata.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/PackageNotificationUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/PackageNotificationUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/TypeLoaderExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/TypeLoaderExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Unity.XR.Management.Editor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Unity.XR.Management.Editor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRBuildProcessorHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRBuildProcessorHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRConfigurationProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRConfigurationProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRConstants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRConstants.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRCustomLoaderUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRCustomLoaderUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRCustomLoaderUIManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRCustomLoaderUIManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XREditorWorkQueue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XREditorWorkQueue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRGeneralBuildProcessor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRGeneralBuildProcessor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRGeneralSettingsPerBuildTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRGeneralSettingsPerBuildTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRGeneralSettingsUpgrade.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRGeneralSettingsUpgrade.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRLoaderInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRLoaderInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRLoaderInfoManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRLoaderInfoManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRLoaderOrderUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRLoaderOrderUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRManagerEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRManagerEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRPackageInitialization.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRPackageInitialization.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRPackageInitializationSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRPackageInitializationSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRSettingsManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRSettingsManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRSupportedBuildTargetAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Editor/XRSupportedBuildTargetAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/LICENSE.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/IXRLoaderPreInit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/IXRLoaderPreInit.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/Unity.XR.Management.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/Unity.XR.Management.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRConfigurationData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRConfigurationData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRGeneralSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRGeneralSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRLoaderHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRLoaderHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRManagerSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Runtime/XRManagerSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/BuildTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/BuildTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/DomainReloadTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/DomainReloadTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/EditorTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/EditorTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/MetadataTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/MetadataTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/PackageManagementTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/PackageManagementTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/StandaloneSubsystemTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/StandaloneSubsystemTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/Unity.XR.Management.EditorTests.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Editor/Unity.XR.Management.EditorTests.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/DummyLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/DummyLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/RuntimeLoaderTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/RuntimeLoaderTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/RuntimeTestSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/RuntimeTestSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/RuntimeTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/RuntimeTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/Unity.XR.Management.Tests.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/Runtime/Unity.XR.Management.Tests.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/StandaloneSubsystem.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/StandaloneSubsystem/StandaloneLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/StandaloneSubsystem/StandaloneLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/StandaloneSubsystem/StandaloneSubsystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/StandaloneSubsystem/StandaloneSubsystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/StandaloneSubsystem/StandaloneSubsystemDescriptor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/StandaloneSubsystem/StandaloneSubsystemDescriptor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Editor/TestPackage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Editor/TestPackage.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Editor/TestPackageMetadata.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Editor/TestPackageMetadata.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Editor/TestSettingsEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Editor/TestSettingsEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/Constants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/Constants.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestLoaderBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestLoaderBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestLoaderOne.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestLoaderOne.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestLoaderThree.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestLoaderThree.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestLoaderTwo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestLoaderTwo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/TestSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestTooling.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestTooling/LoaderTestSetup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestTooling/LoaderTestSetup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestTooling/ManagementTestSetup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestTooling/ManagementTestSetup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestTooling/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestTooling/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestTooling/Unity.XR.TestSupport.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/Tests/TestTooling/Unity.XR.TestSupport.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@4.0.1/package.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@1.6.1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@1.6.1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/06/064ea090ee144b7929f1db6296991cf4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/07/0739c4cc41a460cecff9ffa08a065733" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/08/08e9361427bbf2ab869a4f2db0e51064" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/09/0945d69aba3da355657b690127ba5f19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0b/0b7aeab7082d6e41b39e0560361d425a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0d/0d4f980802ecfe88596d0d935cdc672a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0e/0e8680e40a24b19a966f223c201cef7b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0f/0f5bc2d39a7798a0514dc2093f67155b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/13/1337db2576598a1f842c683730364816" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/13/13429adffa8261912c10bf360e63d4f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/16/161d6d9a1e611568d06192e4ba9af936" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/18/187c80441b6609aafa6bc113e55b4100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1a/1ad5fb5192a15497348bd133fd808b96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1b/1b0f9f5bee2a0fc9985ba88f41c2aa22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1c/1c2b0765c54e7cc8eb75a16f77c89ea0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1c/1ccbace615a1ce56c0e87398edd38b5b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1f/1fd001d34bdc2eb1e944b1d9a79ddc9b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/21/211f3e8544e91372711133d16573dfb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/22/229358d5b572707402bef072da5839d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/23/2337dae216d5b571744f54b5870ff448" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/25/2535c81d3e2e675086863930c2d5cf9b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2a/2a6cda007167bc79584ac82f616d093b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2c/2c8388dc537a5a468fbb7e34d6507f18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2f/2f33fbc07d7ed234f857d14e96b5f43e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/30/307520e555db77ceb71ac729704f4bdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/30/30ed349bb09ca78206dffa5f4e276a00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/31/31567295a120f94272ff280875f51878" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/33/33761710edcad1636c64ff6ed3fa5fd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/37/370af993404d6382aae1c895ddca5fd5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/38/38d897ba3dd3c02eaf9376061207944e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3e/3ea6f12d8ce32ab1e2b11d59b99dde97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3f/3f4677eba161184a7669dbd6c764776b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/44/445d0d6636202a511297677a34122fce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/45/45e09b60e5035a21d4c4ce4e93b30b64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/48/48e04c8ef2763615544941a1b0c6a680" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4af6d099fcdc8e9dc22aa8290c098dc0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4af82aadd8a44b09c3b04a855cb1c6da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4b/4ba1eda3bce15221ddc35be80505f455" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4c/4cde282fd9ad2a3cd00fd36aac90bc70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4e/4e661db64d3f29c1b22bfaf9a8756d28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/50/5092c4f1c099e22149c397426782858e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/54/543e1ca761cfdfa657c5f9eb5e906949" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/55/557d9c2f0dfa4e2506f1c46986152e16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/56/56418016aeea28eb9fb2dd2fd4d6b282" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/57/5744519a9f87390c3f555a05dfcd7b4c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/58/582633a9e511f81e4fc22b2e13be9cab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/59/5986a4a3ca4f2cf2f24ec7c2419afba8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5c/5cda07818a63568a5d59409e74327111" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5f48d17c8322dfea59cf2940e95a512e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/62/62e3725ae78c241ca8040b7cb514a3bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/67/67df410a3721f3d2744e3f5228685f1e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/68/68bdc74ef62474d37a271c263282ac48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/72/728decb38d54542af967ff7fd81e1dc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/73/732ff83189d48391670636403bf70261" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/74/74940a94774f63e5d22378774e921991" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/75/75dbc2cd732b31b90772b58443118238" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/76/7670245bcfc2d02b302a401c8bde68c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/79/79f7dceb1350463e273dda14859fb685" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7a/7a5b7e28c33328d6efff25fe67afb6f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7b/7bf6b96d5f785c526012731bd424232f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7c/7c286d2cda44eec108aab270ca51a605" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7e/7eb0018f639c34883fe9f6b03e94b9ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7f/7fe78078928152700d43a877b5cedf2f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/89/89764452b3830fa76043b36d9d69ad1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/89/8985d1dde30a2cbe450a7d5c14721095" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8f/8f4a8d3a62adf2b443323b5e18b16074" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/90/9002eb1a397279cf40ea6b0a068c2e66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/91/911a6c31fb91e601f77ca83cce8a730b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/92/9248ebd5267e42a58b8284fe86e15a77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/92/92bd1a06058d6d6a5b5fd0a7bc1e9101" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/95/9529cfabc8cceee012325d7e711e95c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/95/952d07316c6af6d93c3055a900909880" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/97/97a739d72005349a87f29ba666ff8849" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9f/9f8a941e9346c341ae58373ea203b235" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a0c01068f320f4f4783f4862374fc9f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a2/a2d638906d0c3c28d449a175f993652a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a8/a86db8e787d38ef1e34017e99c0a3350" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a9/a92330ae4a6b204cee4cefed39e8be86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ac/ac10239c38bdaf128e9d0558389339b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/af/af9ba64fdb74853d7a2cb167875dea0e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b1/b1a7fab8e58dd0e33885335a158f3103" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b2/b25a454b8ed673f1bef1c941846def97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b8/b8b3e2d272ae1856cede92ea73df454d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ba/ba4e6deb610d35dc2155491fbdcebaae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bc/bc4f534a9beb1d35bc7ec272c646d977" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c4/c43d49d412da091527c41b98f18db6aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c8/c8a79d328b8bf50e76130063e715caf4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ca/ca193333e157b4031491236a7a0e3226" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cf/cff5c36ae72b292d7a947345bf5a7292" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d2/d26d0a48ff10573373cb5eb46ff1e893" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d4/d408a31f7f4c410eef16dc0f90f0f607" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d6/d64df687cc676f5eb42d02f8738f4880" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d8/d821890838dd0a88f37aad9ceb1cfc16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d9/d9b0c347ac7935dda2275197ef27f7b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/db/dbefe3b855b7ac9000639eb4d1fdc3c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e0/e0e727f5fdcbd2aa24b8e790e81e8f24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e1/e108951c1958c820c9b01bd49c5642dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e1/e18ef268df37791c56b25ed3f2dddfe9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e4/e452874f1b31f072d66ed3723dedf42a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ea/eaeab94204a283f87ab51b091ac7bd50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ec/ecc53ecbeb23fe2e1d4068286c46d048" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ee/ee34c31fd3104f8f2acb3481c13eeb00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f1/f1dc2c1f4f495e0c8b34262391cbe87e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f2/f21fbb41d8c974b9b36fec44bf23027e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fb/fb33e116c9a3dd6a4452bb33d8660fbd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.Platform.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.Platform.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.Platform.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.Platform.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.VR.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.VR.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.VR.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Oculus.VR.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll" afterDir="false" />
@@ -498,9 +150,6 @@
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/347b62-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/347b62-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/3594d1-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/3594d1-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
@@ -513,14 +162,6 @@
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Oculus.VR.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Oculus.VR.Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Oculus.VR.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Oculus.VR.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -650,6 +291,7 @@
       <workItem from="1618493280028" duration="6979000" />
       <workItem from="1618575565368" duration="799000" />
       <workItem from="1618840624314" duration="11136000" />
+      <workItem from="1618996767612" duration="7000" />
     </task>
     <servers />
   </component>
