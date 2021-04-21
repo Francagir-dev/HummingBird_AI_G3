@@ -97,12 +97,16 @@ public class DataBaseManager : MonoBehaviour
         connectionString = "URI=file:" + filepath;
         dbconn = new SqliteConnection(connectionString);
         CreateTable();
+        CreateGameSession();
     }
 
     private void Start()
     {
         dbManager = this;
         GetLastApp();
+        InsertAppInfo(20f, 20f, 20);
+        InsertAppInfo(30f, 40f, 20);
+        InsertAppInfo(59f, 100f, 20);
     }
 
     /* A SIMPLE BASIC QUERY With different tables:
@@ -213,7 +217,6 @@ public class DataBaseManager : MonoBehaviour
                             _lastGs = new GameSession(reader.GetInt32(0), reader.GetString(1),
                                 reader.GetString(2),
                                 reader.GetFloat(3));
-                            Debug.Log(_lastGs.ToString());
                         }
                         catch (Exception e)
                         {
@@ -396,7 +399,6 @@ public class DataBaseManager : MonoBehaviour
                         catch (Exception e)
                         {
                             Console.WriteLine(e);
-                            throw;
                         }
                     }
 
@@ -489,7 +491,9 @@ public class DataBaseManager : MonoBehaviour
     #region C => Create (Add to DB, POST)
 
     //POST => Add to DB
-    public void InsertAppInfo(float timeSpentOnPatient, float timeInfoToPatient,
+    public void InsertAppInfo(
+        float timeSpentOnPatient,
+        float timeInfoToPatient,
         int timesClickedPatient) // add the variables needed
     {
         GetLastGameSession();
@@ -497,6 +501,8 @@ public class DataBaseManager : MonoBehaviour
         string sqlQuery;
         using (dbconn = new SqliteConnection(connectionString))
         {
+            Debug.Log(_lastGs.GsID);
+            Debug.Log(_lastPatient);
             dbconn.Open();
             using (dbcmd = dbconn.CreateCommand())
             {
@@ -507,6 +513,32 @@ public class DataBaseManager : MonoBehaviour
                 sqlQuery = String.Format(
                     "INSERT INTO App(gs_id,patient_id,timeSpentOnPatient,timeInfoToPatient,timesClickedPatient) VALUES(\"{0}\",\"{1}\",\"{2}\",\"{3}\",\"{4}\")",
                     _lastGs.GsID, _lastPatient.PatientID, timeSpentOnPatient, timeInfoToPatient, timesClickedPatient);
+                dbcmd.CommandText = sqlQuery;
+                dbcmd.ExecuteScalar();
+                dbconn.Close();
+            }
+        }
+    }
+
+    public void CreateGameSession()
+    {
+        string sqlQuery;
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                /*
+                 * You'll need all colums (see Create DB function), if there is an "object" as GameSession, you'll need to add just its id (Variable from its class)
+                 * Those objects should not be null (So call those Insert Queries first)
+                 */
+                string username = "Mob";
+                string actualDate = "17/7/2021";
+                float timeMovingAround = 83.3f;
+
+                sqlQuery = String.Format(
+                    "INSERT INTO GameSession(username, actualDate, timeMovingAround) VALUES(\"{0}\",\"{1}\",\"{2}\")",
+                    username, actualDate, timeMovingAround);
                 dbcmd.CommandText = sqlQuery;
                 dbcmd.ExecuteScalar();
                 dbconn.Close();
