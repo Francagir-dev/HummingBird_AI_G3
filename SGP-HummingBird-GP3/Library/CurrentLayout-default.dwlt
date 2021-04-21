@@ -49,7 +49,11 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 116
+=======
+  controlID: 20
+>>>>>>> parent of 94d02650 (App in computer finished)
 =======
   controlID: 20
 >>>>>>> parent of 94d02650 (App in computer finished)
@@ -69,6 +73,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1518
     y: 0
     width: 386
@@ -79,6 +84,10 @@ MonoBehaviour:
 =======
     x: 1367
     y: 0
+=======
+    x: 1367
+    y: 0
+>>>>>>> parent of 94d02650 (App in computer finished)
     width: 553
     height: 947
   m_MinSize: {x: 275, y: 50}
@@ -107,12 +116,15 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 376
     height: 563
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
 =======
+=======
+>>>>>>> parent of 94d02650 (App in computer finished)
     width: 403
     height: 614
   m_MinSize: {x: 201, y: 221}
@@ -140,6 +152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 563
     width: 1518
     height: 368
@@ -147,6 +160,8 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
 =======
+=======
+>>>>>>> parent of 94d02650 (App in computer finished)
     y: 614
     width: 1367
     height: 333
@@ -246,6 +261,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1518
     height: 931
   m_MinSize: {x: 403, y: 492}
@@ -253,12 +269,17 @@ MonoBehaviour:
   vertical: 1
   controlID: 117
 =======
+=======
+>>>>>>> parent of 94d02650 (App in computer finished)
     width: 1367
     height: 947
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
   controlID: 21
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
 --- !u!114 &10
 MonoBehaviour:
@@ -280,12 +301,21 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1518
     height: 563
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 118
+=======
+    width: 1367
+    height: 614
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 58
+>>>>>>> parent of 94d02650 (App in computer finished)
 =======
     width: 1367
     height: 614
@@ -310,15 +340,21 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 376
     y: 0
     width: 1142
     height: 563
 =======
+=======
+>>>>>>> parent of 94d02650 (App in computer finished)
     x: 403
     y: 0
     width: 964
     height: 614
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -327,7 +363,12 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 17}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 12}
+=======
+  - {fileID: 18}
+  - {fileID: 13}
+>>>>>>> parent of 94d02650 (App in computer finished)
 =======
   - {fileID: 18}
   - {fileID: 13}
@@ -420,6 +461,9 @@ MonoBehaviour:
     y: 687
     width: 1366
     height: 312
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -440,7 +484,11 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scripts
+=======
+  - Assets/Scenes
+>>>>>>> parent of 94d02650 (App in computer finished)
 =======
   - Assets/Scenes
 >>>>>>> parent of 94d02650 (App in computer finished)
@@ -451,9 +499,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 30a80000
     m_LastClickedID: 43056
     m_ExpandedIDs: 00000000faa5000018a80000
+=======
+    m_SelectedIDs: 96430000
+    m_LastClickedID: 17302
+    m_ExpandedIDs: 000000008443000000ca9a3b
+>>>>>>> parent of 94d02650 (App in computer finished)
 =======
     m_SelectedIDs: 96430000
     m_LastClickedID: 17302
@@ -487,7 +541,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000faa50000
+=======
+    m_ExpandedIDs: 
+>>>>>>> parent of 94d02650 (App in computer finished)
 =======
     m_ExpandedIDs: 
 >>>>>>> parent of 94d02650 (App in computer finished)
@@ -516,8 +574,13 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+=======
+    m_SelectedInstanceIDs: a8430000
+    m_LastClickedInstanceID: 17320
+>>>>>>> parent of 94d02650 (App in computer finished)
 =======
     m_SelectedInstanceIDs: a8430000
     m_LastClickedInstanceID: 17320
@@ -573,11 +636,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1526
     y: 81
     width: 385
     height: 910
 =======
+=======
+>>>>>>> parent of 94d02650 (App in computer finished)
     x: 1367
     y: 73
     width: 552
@@ -597,8 +663,11 @@ MonoBehaviour:
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &15
 =======
+=======
+>>>>>>> parent of 94d02650 (App in computer finished)
 --- !u!114 &16
 >>>>>>> parent of 94d02650 (App in computer finished)
 MonoBehaviour:
@@ -645,6 +714,9 @@ MonoBehaviour:
       m_SelectedIDs: a8430000
       m_LastClickedID: 0
       m_ExpandedIDs: a4faffff66fbffff
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -691,6 +763,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 384
     y: 81
     width: 1140
@@ -699,6 +772,8 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: cf2466302d85c5b41b834e10bb6fdcad
 =======
+=======
+>>>>>>> parent of 94d02650 (App in computer finished)
     x: 403
     y: 73
     width: 962
@@ -706,6 +781,9 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 3594d16575c30f94a9036f336c2a4b05
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
   m_Gizmos: 1
   m_SceneIsLit: 1
@@ -716,9 +794,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.5233848, y: 1.3087395, z: -5.542796}
     speed: 2
     m_Value: {x: 0.5233848, y: 1.3087395, z: -5.542796}
+=======
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 94d02650 (App in computer finished)
 =======
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
@@ -770,6 +854,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0, y: 1, z: 0, w: 0}
     speed: 2
     m_Value: {x: 0, y: -0.99999994, z: -0, w: 0.00000009362675}
@@ -778,6 +863,8 @@ MonoBehaviour:
     speed: 2
     m_Value: 2.642226
 =======
+=======
+>>>>>>> parent of 94d02650 (App in computer finished)
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
@@ -785,6 +872,9 @@ MonoBehaviour:
     m_Target: 10
     speed: 2
     m_Value: 10
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
   m_Ortho:
     m_Target: 0
@@ -832,15 +922,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 507
     y: 94
     width: 1532
     height: 790
 =======
+=======
+>>>>>>> parent of 94d02650 (App in computer finished)
     x: 403
     y: 73
     width: 962
     height: 593
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -852,7 +948,11 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 1532, y: 769}
+=======
+  m_TargetSize: {x: 962, y: 572}
+>>>>>>> parent of 94d02650 (App in computer finished)
 =======
   m_TargetSize: {x: 962, y: 572}
 >>>>>>> parent of 94d02650 (App in computer finished)
@@ -880,6 +980,9 @@ MonoBehaviour:
     m_HBaseRangeMax: 481
     m_VBaseRangeMin: -286
     m_VBaseRangeMax: 286
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
@@ -909,6 +1012,9 @@ MonoBehaviour:
       height: 572
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 481, y: 286}
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -932,6 +1038,9 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 962, y: 593}
+<<<<<<< HEAD
+>>>>>>> parent of 94d02650 (App in computer finished)
+=======
 >>>>>>> parent of 94d02650 (App in computer finished)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
