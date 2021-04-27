@@ -65,7 +65,7 @@ public class ChangePictureUI : MonoBehaviour
     
     public void GetInfoFromButton(int positionOfButton)
     {
-        Debug.LogWarning(comparePatients);
+     
         if (!comparePatients)
         {
             GameObject btnPatient = buttonList.transform.GetChild(positionOfButton).gameObject;
