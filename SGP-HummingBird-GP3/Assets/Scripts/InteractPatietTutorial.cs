@@ -6,11 +6,13 @@ public class InteractPatietTutorial : MonoBehaviour
 {
     [SerializeField] private GameObject patientCanvasInfo;
     private void OnCollisionEnter(Collision other)
-    {
+    { 
+        Debug.LogWarning("I collided with" + other.collider.gameObject.tag);
         if (other.collider.gameObject.CompareTag("Player"))
         {
             patientCanvasInfo.SetActive(true);
-            StartCoroutine(HideCanvas());
+          //  StartCoroutine(HideCanvas());
+          Debug.LogWarning("I collided with doctor");
         }
     }
 

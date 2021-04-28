@@ -7,11 +7,11 @@ public class TutorialButtons : MonoBehaviour
 {
     public void BackToMenu()
     {
-        SceneManager.LoadScene("Scenes/MenuScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void GoToHospital()
     {
-        SceneManager.LoadScene("Scenes/HospitalRoom");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
