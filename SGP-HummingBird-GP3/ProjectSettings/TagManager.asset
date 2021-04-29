@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - rayLayer
   - 
   - 
   - 
@@ -40,4 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ray
+    uniqueID: 849143519
     locked: 0
