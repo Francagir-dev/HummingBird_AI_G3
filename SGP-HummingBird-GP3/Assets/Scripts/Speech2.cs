@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Speech2 : MonoBehaviour
 {
-
-    void OnCollisionEnter(Collision other)
+   private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Player"))
         {

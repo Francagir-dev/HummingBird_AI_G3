@@ -15,6 +15,8 @@ public class DataBaseManager : MonoBehaviour
 
     string DATABASE_NAME = "/HummingBird.db; PRAGMA foreign_keys = ON;";
 
+    //public float timeOfSession;
+
     #region InfoFromDB
 
     #region Lists of classes
@@ -93,6 +95,7 @@ public class DataBaseManager : MonoBehaviour
 
     private void Awake()
     {
+        dbManager = this;
         string filepath = Application.dataPath + DATABASE_NAME;
         connectionString = "URI=file:" + filepath;
         dbconn = new SqliteConnection(connectionString);
@@ -126,7 +129,8 @@ public class DataBaseManager : MonoBehaviour
                        "[gs_id] INTEGER  NOT NULL PRIMARY KEY AUTOINCREMENT," +
                        "[username] VARCHAR(255)  NOT NULL," +
                        "[actualDate] VARCHAR(255)  NOT NULL," +
-                       "[timeMovingAround] BLOB NOT NULL)";
+                       "[timeMovingAround] BLOB NOT NULL," +
+                       "[timeOfSession] BLOB NOT NULL)";
             dbcmd.CommandText = sqlQuery;
             dbcmd.ExecuteScalar();
             sqlQuery = "CREATE TABLE IF NOT EXISTS [Patient] (" +
@@ -151,6 +155,7 @@ public class DataBaseManager : MonoBehaviour
                        "[timesClickedPatient] INTEGER  NOT NULL," +
                        "FOREIGN KEY (patient_id) REFERENCES Patient(patient_id)," +
                        "FOREIGN KEY (gs_id) REFERENCES GameSession(gs_id))";
+
             dbcmd.CommandText = sqlQuery;
             dbcmd.ExecuteScalar();
             dbconn.Close();
@@ -213,7 +218,6 @@ public class DataBaseManager : MonoBehaviour
                             _lastGs = new GameSession(reader.GetInt32(0), reader.GetString(1),
                                 reader.GetString(2),
                                 reader.GetFloat(3));
-                            Debug.Log(_lastGs.ToString());
                         }
                         catch (Exception e)
                         {
@@ -396,7 +400,6 @@ public class DataBaseManager : MonoBehaviour
                         catch (Exception e)
                         {
                             Console.WriteLine(e);
-                            throw;
                         }
                     }
 
@@ -489,14 +492,20 @@ public class DataBaseManager : MonoBehaviour
     #region C => Create (Add to DB, POST)
 
     //POST => Add to DB
-    public void InsertAppInfo(float timeSpentOnPatient, float timeInfoToPatient,
-        int timesClickedPatient) // add the variables needed
+    public void InsertAppInfo(
+        float timeSpentOnPatient,
+        float timeInfoToPatient,
+        int timesClickedPatient
+
+        ) // add the variables needed
     {
         GetLastGameSession();
         GetLastPatient();
         string sqlQuery;
         using (dbconn = new SqliteConnection(connectionString))
         {
+            Debug.Log(_lastGs.GsID);
+            Debug.Log(_lastPatient);
             dbconn.Open();
             using (dbcmd = dbconn.CreateCommand())
             {
@@ -514,5 +523,29 @@ public class DataBaseManager : MonoBehaviour
         }
     }
 
+    public void CreateGameSession(string username, string actualDate, float timeMovingAround, float timeOfSession)
+    {
+        string sqlQuery;
+        using (dbconn = new SqliteConnection(connectionString))
+        {
+            dbconn.Open();
+            using (dbcmd = dbconn.CreateCommand())
+            {
+                /*
+                 * You'll need all colums (see Create DB function), if there is an "object" as GameSession, you'll need to add just its id (Variable from its class)
+                 * Those objects should not be null (So call those Insert Queries first)
+                 */
+
+                sqlQuery = String.Format(
+                    "INSERT INTO GameSession(username, actualDate, timeMovingAround, timeOfSession) VALUES(\"{0}\",\"{1}\",\"{2}\", \"{3}\")",
+                    username, actualDate, timeMovingAround, timeOfSession);
+                dbcmd.CommandText = sqlQuery;
+                dbcmd.ExecuteScalar();
+                dbconn.Close();
+            }
+        }
+    }
+
     #endregion
 }
+

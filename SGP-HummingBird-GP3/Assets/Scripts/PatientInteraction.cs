@@ -1,19 +1,31 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PatientInteraction : MonoBehaviour
 {
-    [SerializeField] private GameObject metrics;
+    //[SerializeField] private GameObject metrics;
+
+    public event EventHandler OnPatientTouched;
+
+    public static PatientInteraction patientInteraction;
+
+    private void Awake()
+    {
+        patientInteraction = this;
+    }
+
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.collider.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            Debug.LogWarning("I have been touched by the player");
-            metrics.SetActive(true);
-
+         OnPatientTouched.Invoke(this, EventArgs.Empty);
+         // Debug.LogWarning("HEeeeee");
         }
+        
+        //metrics.SetActive(true);
     }
 }

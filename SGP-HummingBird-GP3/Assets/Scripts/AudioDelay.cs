@@ -10,12 +10,7 @@ public class AudioDelay : MonoBehaviour
     void Start()
     {
         AudioClip = GetComponent<AudioSource>();
-        AudioClip.PlayDelayed(5.0f);
+        AudioClip.PlayDelayed(20.0f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
