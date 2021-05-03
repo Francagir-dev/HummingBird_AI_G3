@@ -218,6 +218,7 @@ public class DataBaseManager : MonoBehaviour
                             _lastGs = new GameSession(reader.GetInt32(0), reader.GetString(1),
                                 reader.GetString(2),
                                 reader.GetFloat(3));
+                            Debug.LogWarning("last game session added to db: "+_lastGs.ToString());
                         }
                         catch (Exception e)
                         {
@@ -544,6 +545,7 @@ public class DataBaseManager : MonoBehaviour
                 dbconn.Close();
             }
         }
+        GetLastGameSession();
     }
 
     #endregion

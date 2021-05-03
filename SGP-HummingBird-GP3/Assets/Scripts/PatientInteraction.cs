@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PatientInteraction : MonoBehaviour
 {
     //[SerializeField] private GameObject metrics;
-
+    float timeOfSession = 0.0f;
+    float StartTime = 0.0f;
+    private bool hasBeenSent;
+    private string playerName = "Test Subject Alpha X";
     public event EventHandler OnPatientTouched;
 
     public static PatientInteraction patientInteraction;
@@ -15,6 +17,7 @@ public class PatientInteraction : MonoBehaviour
     private void Awake()
     {
         patientInteraction = this;
+        StartTime = Time.time;
     }
 
 
@@ -22,10 +25,21 @@ public class PatientInteraction : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-         OnPatientTouched.Invoke(this, EventArgs.Empty);
-         // Debug.LogWarning("HEeeeee");
+            if (!hasBeenSent)
+            {
+                if (PersistentManager.persistentDataManager != null)
+                {
+                    playerName = PersistentManager.persistentDataManager.username;
+                }
+
+                timeOfSession = Time.time - StartTime;
+                DataBaseManager.dbManager.CreateGameSession(playerName,
+                    DateTime.UtcNow.ToLocalTime().ToString(), 7f, timeOfSession);
+                Debug.Log("Saved");
+                hasBeenSent = true;
+            }
         }
-        
+
         //metrics.SetActive(true);
     }
 }
