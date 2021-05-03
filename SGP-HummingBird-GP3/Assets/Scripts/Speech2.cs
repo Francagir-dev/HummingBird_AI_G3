@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class Speech2 : MonoBehaviour
 {
-   private void OnCollisionEnter(Collision other)
+
+    void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            FindObjectOfType<AudioManager>().Play("patient2");
+            speech();
         }
+    }
+
+    public void speech()
+    {
+        FindObjectOfType<AudioManager>().Play("patient2");
     }
 
 }
