@@ -9,6 +9,7 @@ public class GameSession : ScriptableObject
     private string _username;
     private string _actualDate;
     private float _timeMovingAround;
+    private float _timeOfSession;
 
     #endregion
     
@@ -46,12 +47,14 @@ public class GameSession : ScriptableObject
         _timeMovingAround = timeMovingAround;
     }
 
-    public GameSession(int gsID, string username, float timeMovingAround)
+    public GameSession(int gsID, string username, string actualDate, float timeMovingAround, float timeOfSession)
     {
         _id = gsID;
         _username = username;
+        _actualDate = actualDate;
         _actualDate = CreateDate();
         _timeMovingAround = timeMovingAround;
+        _timeOfSession = timeOfSession;
     }
 
     #endregion
@@ -80,6 +83,12 @@ public class GameSession : ScriptableObject
     {
         get => _timeMovingAround;
         set => _timeMovingAround = value;
+    }
+
+    public float TimeOfSession
+    {
+        get => _timeOfSession;
+        set => _timeOfSession = value;
     }
 
     #endregion
