@@ -187,7 +187,7 @@ public class DataBaseManager : MonoBehaviour
                     {
                         _allGameSessions.Add(new GameSession(reader.GetInt32(0), reader.GetString(1),
                             reader.GetString(2),
-                            reader.GetFloat(3)));
+                            reader.GetFloat(3), reader.GetFloat(4)));
                     }
 
                     dbconn.Close();
@@ -545,7 +545,7 @@ public class DataBaseManager : MonoBehaviour
                 dbconn.Close();
             }
         }
-        GetLastGameSession();
+       GetLastGameSession();
     }
 
     #endregion
