@@ -105,7 +105,7 @@ public class DataBaseManager : MonoBehaviour
     private void Start()
     {
         dbManager = this;
-        GetLastApp();
+        //Debug.LogWarning("I AM GOING TO GET LAST GAME SESSION INFO");
     }
 
     /* A SIMPLE BASIC QUERY With different tables:
@@ -209,29 +209,33 @@ public class DataBaseManager : MonoBehaviour
             {
                 string sqlQuery = "SELECT * FROM GameSession ORDER BY gs_id DESC LIMIT 1";
                 dbcmd.CommandText = sqlQuery;
+                _lastGs = ScriptableObject.CreateInstance<GameSession>();
                 using (IDataReader reader = dbcmd.ExecuteReader())
                 {
                     while (reader.Read())
                     {
                         try
                         {
-                            _lastGs = new GameSession(reader.GetInt32(0), reader.GetString(1),
-                                reader.GetString(2),
-                                reader.GetFloat(3));
-                            Debug.LogWarning("last game session added to db: "+_lastGs.ToString());
+                            _lastGs.GsID = reader.GetInt32(0);
+                            _lastGs.Username = reader.GetString(1);
+                            _lastGs.ActualDate = reader.GetString(2);
+                            _lastGs.TimeMovingAround = reader.GetFloat(3);
+                            _lastGs.TimeOfSession = reader.GetFloat(4);
                         }
                         catch (Exception e)
                         {
                             Console.WriteLine(e);
-                            throw;
                         }
                     }
+
 
                     dbconn.Close();
                     reader.Close();
                 }
             }
         }
+
+        Debug.LogWarning(_lastGs.ToString());
     }
 
     /// <summary>
@@ -497,8 +501,7 @@ public class DataBaseManager : MonoBehaviour
         float timeSpentOnPatient,
         float timeInfoToPatient,
         int timesClickedPatient
-
-        ) // add the variables needed
+    ) // add the variables needed
     {
         GetLastGameSession();
         GetLastPatient();
@@ -545,9 +548,9 @@ public class DataBaseManager : MonoBehaviour
                 dbconn.Close();
             }
         }
-       GetLastGameSession();
+
+        GetLastGameSession();
     }
 
     #endregion
 }
-

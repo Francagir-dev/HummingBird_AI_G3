@@ -34,7 +34,7 @@ public class PatientInteraction : MonoBehaviour
 
                 timeOfSession = Time.time - StartTime;
                 DataBaseManager.dbManager.CreateGameSession(playerName,
-                    DateTime.UtcNow.ToLocalTime().ToString(), 7f, timeOfSession);
+                    DateTime.UtcNow.ToLocalTime().ToString(), 7.0f, timeOfSession);
                 Debug.Log("Saved");
                 hasBeenSent = true;
             }
